@@ -8,7 +8,7 @@ def error_message_detail(error, error_detail: sys):
     )
     return error_message
 
-class EasyvisaException(Exception):
+class SpaceshipTitanicException(Exception):
     def __init__(self, error_message, error_detail: sys):
         detailed_message = error_message_detail(error_message, error_detail)
         super().__init__(detailed_message)

@@ -44,4 +44,4 @@ mlops-spaceshiptitanic-project/
 ├── setup.py                     # Installable package setup
 ├── Dockerfile                   # Container definition
 ├── .dockerignore
-└── README.md                    # 📄 You are here!
+└── README.md                    
