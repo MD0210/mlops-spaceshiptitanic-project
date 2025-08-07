@@ -24,7 +24,7 @@ The goal is to predict whether a passenger was **transported to an alternate dim
 ## 🚀 CI/CD Deployment Flow
 
 1. 🏗️ **Build** Docker image from source code
-2. 📦 **Push** Docker image to AWS ECR (`Spashiptitanicrepo`)
+2. 📦 **Push** Docker image to AWS ECR (`Spaceshiptitanicrepo`)
 3. 🖥️ **Launch** EC2 Ubuntu instance
 4. 📥 **Pull** image from ECR to EC2
 5. 🧠 **Run** container to start ML inference service
