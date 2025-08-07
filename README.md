@@ -12,6 +12,26 @@ The goal is to predict whether a passenger was **transported to an alternate dim
 
 ---
 
+## ⚙️ Tech Stack & Tools
+
+- **Language:** Python (Object-Oriented Programming)
+- **MLOps Framework:** GitHub Actions, Docker, AWS (EC2, ECR, S3)
+- **IDE & Environment:** VS Code, Anaconda
+- **Data & Monitoring:** MongoDB, Evidently AI
+
+---
+
+## 🚀 CI/CD Deployment Flow
+
+1. 🏗️ **Build** Docker image from source code
+2. 📦 **Push** Docker image to AWS ECR (`Spashiptitanicrepo`)
+3. 🖥️ **Launch** EC2 Ubuntu instance
+4. 📥 **Pull** image from ECR to EC2
+5. 🧠 **Run** container to start ML inference service
+6. 🤖 **Trigger** GitHub Actions for automated deployment
+
+---
+
 ## 🏗️ Project Structure
 
 ```bash
@@ -45,3 +65,4 @@ mlops-spaceshiptitanic-project/
 ├── Dockerfile                   # Container definition
 ├── .dockerignore
 └── README.md                    
+
